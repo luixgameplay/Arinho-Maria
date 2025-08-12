@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Fonte e cores principais */
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -14,7 +12,6 @@
     padding: 0 1rem;
   }
   
-  /* Cabeçalho */
   header {
     background: #4caf50;
     color: white;
@@ -38,7 +35,6 @@
     text-decoration: underline;
   }
   
-  /* Seções principais */
   main section {
     margin: 2rem auto;
     max-width: 900px;
@@ -62,7 +58,6 @@
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Lista com ícones em negrito */
   ul {
     padding-left: 1.5rem;
   }
@@ -71,12 +66,10 @@
     margin-bottom: 0.5rem;
   }
   
-  /* Artigos */
   article {
     margin-bottom: 2rem;
   }
   
-  /* Formulário de contato */
   form {
     display: flex;
     flex-direction: column;
